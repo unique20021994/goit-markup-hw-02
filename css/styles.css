@@ -12,6 +12,7 @@
   --color-address-text: rgba(255, 255, 255, 0.6);
   --color-section-text:#757575;
   --background-color-section:#F5F4FA;
+  --background-color-hover:#188CE8;
 }
 
 /* Styles for index.html */
@@ -93,6 +94,9 @@ body {
   cursor: pointer;
 }
 
+.button:hover, .button:focus {
+  background-color:var(--background-color-hover) ;
+}
 
 .text {
   font-weight: 900;
